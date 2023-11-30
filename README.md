@@ -6,6 +6,7 @@ This is a portfolio containing a collection of my most memorable pieces of work.
 
 - <b>Java</b>
   - [Course Review Website](https://github.com/Pranie63/Course-Review-Website)
+  - [Java List Implementation](https://github.com/Pranie63/Generic-Lists)
 
 <h2> Lets Connect:</h2>
 
