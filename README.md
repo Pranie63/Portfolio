@@ -10,6 +10,8 @@ This is a portfolio containing a collection of my most memorable pieces of work.
   - [Wordle](https://github.com/Pranie63/Wordle)
 - <b>Cybersecurity</b>
   - [Blockchain](https://github.com/Pranie63/PranavPenny)
+- <b>JavaScript</b>
+  - [eCommerce Bookstore](https://github.com/Ananya-Ananda/eCommerceProject)
 
 <h2> Lets Connect:</h2>
 
