@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Portfolio from './Portfolio';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+const num: number = 8
 root.render(
   <React.StrictMode>
-    <App />
+    <Portfolio Input={"This is a test!"}/>
   </React.StrictMode>
 );
 
