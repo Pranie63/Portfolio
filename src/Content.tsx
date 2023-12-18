@@ -1,4 +1,5 @@
 import './Content.css'
+import ProjectCats from './ProjectCats'
 
 type ContentProps = {
     projectMappings: Map<String, Array<String>>
@@ -7,7 +8,7 @@ type ContentProps = {
 function Content(props: ContentProps) {
     return (
         <div>
-
+            <ProjectCats projectMappings={props.projectMappings}/>
         </div>
     )
 }
