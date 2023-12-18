@@ -1,14 +1,11 @@
 import React from 'react'
 import './Portfolio.css';
+import Intro from './Intro';
 
-type PortfolioProps = {
-    Input: String
-}
-
-function Portfolio(props: PortfolioProps) {
+function Portfolio() {
     return(
         <div className='body'>
-            {props.Input}
+            <Intro name="Pranav" titles={["Software Engineer", "Software Developer"]} description={"Test"}/>
         </div>
     )
 }
