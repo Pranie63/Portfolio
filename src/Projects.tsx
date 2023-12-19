@@ -1,3 +1,4 @@
+import Project from './Project'
 import './Projects.css'
 
 type ProjectsProps = {
@@ -7,7 +8,11 @@ type ProjectsProps = {
 function Projects(props: ProjectsProps) {
     return (
         <div>
-            {props.projects}
+            {props.projects?.map((project) => {
+                return (
+                    <Project name={project}/>
+                )
+            })}
         </div>
     )
 }
