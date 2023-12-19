@@ -1,15 +1,16 @@
 import './ProjectCat.css'
+import { Dispatch, SetStateAction } from 'react'
 
 type ProjectCatProps = {
     name: String
-    setProjectCat: Function
+    setProjectCat: Dispatch<SetStateAction<String>>
 }
 
 function ProjectCat(props: ProjectCatProps) {
     return (
-        <div onClick={props.setProjectCat(props.name)}>
+        <button onClick={() => props.setProjectCat(props.name)}>
             {props.name}
-        </div>
+        </button>
     )
 }
 

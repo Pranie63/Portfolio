@@ -1,9 +1,10 @@
 import './ProjectCats.css'
 import ProjectCat from './ProjectCat'
+import { Dispatch, SetStateAction } from 'react'
 
 type ProjectCatsProps = {
     projectMappings: Map<String, Array<String>>
-    setProjectCat: Function
+    setProjectCat: Dispatch<SetStateAction<String>>
 }
 
 function ProjectCats(props: ProjectCatsProps) {

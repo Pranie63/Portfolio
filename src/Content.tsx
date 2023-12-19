@@ -8,9 +8,11 @@ type ContentProps = {
 }
 
 function Content(props: ContentProps) {
-    const [curProjectCat, setProjectCat] = useState(Array.from(props.projectMappings)[0][0])
+    let [curProjectCat, setProjectCat] = useState<String>("test")
     return (
         <div>
+            {/* <button onClick={() => setProjectCat("test1")}>BUTTON</button>
+            {curProjectCat} */}
             <ProjectCats projectMappings={props.projectMappings} setProjectCat={setProjectCat}/>
             <Projects projects={props.projectMappings.get(curProjectCat)}/>
         </div>
