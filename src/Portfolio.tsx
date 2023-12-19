@@ -3,7 +3,7 @@ import './Portfolio.css';
 import Intro from './Intro';
 import Content from './Content';
 
-const projectMappings: Map<String, Array<String>> = new Map<String, Array<String>>([["test", ["test"]], ["test1", ["test"]]]);
+const projectMappings: Map<String, Array<String>> = new Map<String, Array<String>>([["test", ["test"]], ["test1", ["test1"]]]);
 
 function Portfolio() {
     return(
