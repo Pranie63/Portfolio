@@ -1,4 +1,4 @@
-import '/ProjectCat.css'
+import './ProjectCat.css'
 
 type ProjectCatProps = {
     name: String
