@@ -6,7 +6,7 @@ type ProjectProps = {
 
 function Project(props: ProjectProps) {
     return (
-        <div>
+        <div className='project'>
             {props.name}
         </div>
     )

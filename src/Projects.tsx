@@ -7,7 +7,7 @@ type ProjectsProps = {
 
 function Projects(props: ProjectsProps) {
     return (
-        <div>
+        <div className='projects'>
             {props.projects?.map((project) => {
                 return (
                     <Project name={project}/>

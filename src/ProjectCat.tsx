@@ -8,9 +8,9 @@ type ProjectCatProps = {
 
 function ProjectCat(props: ProjectCatProps) {
     return (
-        <button onClick={() => props.setProjectCat(props.name)}>
+        <div className = "projectCat" onMouseOver={() => props.setProjectCat(props.name)}>
             {props.name}
-        </button>
+        </div>
     )
 }
 

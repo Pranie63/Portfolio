@@ -9,7 +9,7 @@ type ProjectCatsProps = {
 
 function ProjectCats(props: ProjectCatsProps) {
     return (
-        <div>
+        <div className='projectCats'>
             {Array.from(props.projectMappings).map(([key, value]) => {
                 return (
                     <ProjectCat name={key} setProjectCat={props.setProjectCat}/>
