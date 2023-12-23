@@ -8,11 +8,9 @@ type ContentProps = {
 }
 
 function Content(props: ContentProps) {
-    let [curProjectCat, setProjectCat] = useState<String>("test")
+    const [curProjectCat, setProjectCat] = useState<String>("test");
     return (
         <div className="content">
-            {/* <button onClick={() => setProjectCat("test1")}>BUTTON</button>
-            {curProjectCat} */}
             <ProjectCats projectMappings={props.projectMappings} setProjectCat={setProjectCat}/>
             <Projects projects={props.projectMappings.get(curProjectCat)}/>
         </div>
