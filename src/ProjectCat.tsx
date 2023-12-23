@@ -8,7 +8,7 @@ type ProjectCatProps = {
 
 function ProjectCat(props: ProjectCatProps) {
     return (
-        <div className = "projectCat" onMouseOver={() => props.setProjectCat(props.name)}>
+        <div className = "projectCat" onMouseOver={() => {props.setProjectCat(""); setTimeout(() => props.setProjectCat(props.name), 5)}}>
             {props.name}
         </div>
     )
