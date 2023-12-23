@@ -13,6 +13,7 @@
     padding: 0.9em 0 0.9em 0;
     border-style: solid none none solid;
     border-color: black;
+    transition: 1s;
 }
 
 .projectCat:hover {
