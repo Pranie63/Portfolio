@@ -2,20 +2,26 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    text-align: center;
+    width: fit-content;
+    text-align: left;
     font-size: 2em;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     /* font-family: 'Bauhaus 93', sans-serif; */
-    font-family: 'Agency FB';
+    /* font-family: 'Agency FB'; */
+    text-transform: capitalize;
     /* font-family: 'script mt'; */
     /* top: 0; */
-    margin: 0;
-    padding: 0.9em 0 0.9em 0;
-    border-style: solid none none solid;
-    border-color: black;
+    margin: 0.5em;
+    padding: 0em 0.5em 0em 0.5em;
+    color: white;
+    background-color: transparent;
+    /* border-radius: 2em; */
+    border-style: none none solid none;
+    border-color: transparent;
     transition: 1s;
 }
 
 .projectCat:hover {
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
+    border-color: white
 }
