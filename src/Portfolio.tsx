@@ -3,7 +3,7 @@ import './Portfolio.css';
 import Intro from './Intro';
 import Content from './Content';
 
-const projectMappings: Map<String, Array<String>> = new Map<String, Array<String>>([["test", ["test", "1test"]], ["test1", ["test1", "1test1"]], ["test2", ["1", "2", "3", "4", "5"]], ["test3", ["1", "2", "3", "4", "5"]]]);
+const projectMappings: Map<String, Array<String>> = new Map<String, Array<String>>([["Java", ["test", "1test"]], ["Javascript", ["test1", "1test1"]], ["Cybersecurity", ["1", "2", "3", "4", "5"]], ["Robotics", ["1", "2", "3", "4", "5"]]]);
 
 function Portfolio() {
     return(
