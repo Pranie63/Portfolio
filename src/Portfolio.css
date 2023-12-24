@@ -1,3 +1,4 @@
 .body {
-    background-color: gray;
+    background: linear-gradient(to top right, black, darkgray, black);
+    font-family: 'Montserrat', sans-serif;
 }
