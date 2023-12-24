@@ -10,9 +10,12 @@ type ProjectCatsProps = {
 function ProjectCats(props: ProjectCatsProps) {
     return (
         <div className='projectCats'>
+            <div className='header'>
+                Categories
+            </div>
             {Array.from(props.projectMappings).map(([key, value]) => {
                 return (
-                    <ProjectCat name={key} setProjectCat={props.setProjectCat}/>
+                    <ProjectCat name={key} setProjectCat={props.setProjectCat} />
                 )
             })}
         </div>

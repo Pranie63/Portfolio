@@ -8,3 +8,17 @@
     border-color: white
     /* overflow-y:auto */
 }
+
+.header {
+    /* width: fit-content; */
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    /* margin: 0.2em 0.5em; */
+    padding: 0em 0.5em 0em 0.5em;
+    color: white;
+    background-color: transparent;
+    border-style: none none solid none;
+    border-color: white;
+    transition: 1s;
+}
