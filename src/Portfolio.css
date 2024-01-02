@@ -23,7 +23,7 @@
 } */
 
 *::-webkit-scrollbar-thumb {
-    background-color:black;
+    background: linear-gradient(to bottom, black, darkgray);
     /* border: 1px solid #ffffff40; */
     border: 1px solid black;
     border-radius: 24px;
