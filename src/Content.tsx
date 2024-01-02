@@ -10,9 +10,14 @@ type ContentProps = {
 function Content(props: ContentProps) {
     const [curProjectCat, setProjectCat] = useState<String>("Java");
     return (
-        <div className="content">
-            <ProjectCats projectMappings={props.projectMappings} setProjectCat={setProjectCat}/>
-            <Projects projects={props.projectMappings.get(curProjectCat)}/>
+        <div>
+            <div className='title'>
+                Projects
+            </div>
+            <div className="content">
+                <ProjectCats projectMappings={props.projectMappings} setProjectCat={setProjectCat}/>
+                <Projects projects={props.projectMappings.get(curProjectCat)}/>
+            </div>
         </div>
     )
 }
