@@ -2,3 +2,29 @@
     background: linear-gradient(to top right, black, darkgray, black);
     font-family: 'Montserrat', sans-serif;
 }
+
+*::-webkit-scrollbar {
+    display: block;
+    width: 1em;
+}
+
+/* *::-webkit-scrollbar-button {
+    display: none;
+} */
+
+*::-webkit-scrollbar-track {
+    /* background-color: #00000000; */
+    background: linear-gradient(to bottom, black, darkgray);
+    /* color: red; */
+}
+
+/* *::-webkit-scrollbar-track-piece {
+    background-color: #00000000;
+} */
+
+*::-webkit-scrollbar-thumb {
+    background-color:black;
+    /* border: 1px solid #ffffff40; */
+    border: 1px solid black;
+    border-radius: 24px;
+}
