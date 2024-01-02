@@ -1,0 +1,21 @@
+.intro {
+    margin: 0;
+    display: flex;
+}
+
+.img {
+    margin: 2em;
+    width: 100%;
+    /* padding: 2em; */
+}
+
+.desc {
+    /* margin: 0; */
+    padding: 2em;
+    font-size: 1.5em;
+    color: white;
+}
+
+.section {
+    padding: 0 0 1em 0;
+}
