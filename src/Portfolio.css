@@ -1,5 +1,7 @@
 .body {
-    background: linear-gradient(to top right, black, darkgray, black);
+    /* background: linear-gradient(to top right, black, darkgray, black); */
+    /* background: linear-gradient(to top, black, black, black); */
+    background: black;
     font-family: 'Montserrat', sans-serif;
 }
 
