@@ -22,32 +22,4 @@ function Content(props: ContentProps) {
     )
 }
 
-// var header: HTMLElement | null = document.getElementById("content")
-
-// function fadeOutOnScroll(element: HTMLElement | null) {
-// 	if (!element) {
-// 		return;
-// 	}
-	
-// 	var distanceToTop = window.scrollY + element.getBoundingClientRect().top;
-// 	var elementHeight = element.clientHeight;
-// 	var scrollTop = document.documentElement.scrollTop;
-	
-// 	var opacity = 1;
-	
-// 	if (scrollTop > distanceToTop) {
-// 		opacity = 1 - (scrollTop - distanceToTop) / elementHeight;
-// 	}
-	
-// 	if (opacity >= 0) {
-// 		element.style.opacity = opacity.toString();
-// 	}
-// }
-
-// function scrollHandler() {
-// 	fadeOutOnScroll(header);
-// }
-
-// window.addEventListener('scroll', scrollHandler);
-
 export default Content
