@@ -3,10 +3,28 @@
     display: flex;
 }
 
-.img {
-    margin: 2em;
+.pagetitle {
+    /* margin: auto; */
     width: 100%;
-    /* padding: 2em; */
+    font-size: 5em;
+    color: white;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    /* width: fit-content; */
+    background-color: black;
+}
+
+.img {
+    /* margin: 2em; */
+    width: auto;
+    height: auto;
+    /* object-fit:contain; */
+    padding: 2em 2em 2em 10em;
+}
+
+.img > img{
+    height: 20em;
+    border-radius: 2em;
 }
 
 .desc {
