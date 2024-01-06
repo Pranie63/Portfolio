@@ -32,6 +32,12 @@
 .project:hover {
     height: 5em;
     margin: 0.5em 4em;
+    cursor: pointer;
+}
+
+.project > a {
+    display: block;
+    opacity: 0;
 }
 
 @keyframes show {
