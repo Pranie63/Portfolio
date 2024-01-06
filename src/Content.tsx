@@ -15,6 +15,9 @@ function Content(props: ContentProps) {
             <div className='title'>
                 Projects
             </div>
+            <div className='contentDesc'>
+                Click on the projects to view the source code and learn more.
+            </div>
             <div id = "content" className="content">
                 <ProjectCats projectMappings={props.projectMappings} setProjectCat={setProjectCat} curProjectCat={curProjectCat}/>
                 <Projects projects={props.projectMappings.get(curProjectCat)}/>
