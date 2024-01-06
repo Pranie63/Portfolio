@@ -6,6 +6,7 @@ import type {ProjectProps} from './Project'
 type ProjectCatsProps = {
     projectMappings: Map<String, Array<ProjectProps>>
     setProjectCat: Dispatch<SetStateAction<String>>
+    curProjectCat: String
 }
 
 function ProjectCats(props: ProjectCatsProps) {
@@ -16,7 +17,7 @@ function ProjectCats(props: ProjectCatsProps) {
             </div>
             {Array.from(props.projectMappings).map(([key, value]) => {
                 return (
-                    <ProjectCat name={key} setProjectCat={props.setProjectCat} />
+                    <ProjectCat name={key} setProjectCat={props.setProjectCat} selected={key === props.curProjectCat}/>
                 )
             })}
         </div>

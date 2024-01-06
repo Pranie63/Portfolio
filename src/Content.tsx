@@ -16,7 +16,7 @@ function Content(props: ContentProps) {
                 Projects
             </div>
             <div id = "content" className="content">
-                <ProjectCats projectMappings={props.projectMappings} setProjectCat={setProjectCat}/>
+                <ProjectCats projectMappings={props.projectMappings} setProjectCat={setProjectCat} curProjectCat={curProjectCat}/>
                 <Projects projects={props.projectMappings.get(curProjectCat)}/>
             </div>
         </div>
