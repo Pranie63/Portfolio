@@ -2,6 +2,8 @@ import './Project.css'
 
 type ProjectProps = {
     name: String
+    link: String
+    imgPath: String
 }
 
 function Project(props: ProjectProps) {
@@ -12,4 +14,5 @@ function Project(props: ProjectProps) {
     )
 }
 
+export type {ProjectProps}
 export default Project
