@@ -2,9 +2,10 @@ import './Content.css'
 import ProjectCats from './ProjectCats'
 import Projects from './Projects'
 import { useState } from 'react'
+import type {ProjectProps} from './Project'
 
 type ContentProps = {
-    projectMappings: Map<String, Array<String>>
+    projectMappings: Map<String, Array<ProjectProps>>
 }
 
 function Content(props: ContentProps) {

@@ -2,8 +2,19 @@ import React from 'react'
 import './Portfolio.css';
 import Intro from './Intro';
 import Content from './Content';
+import type {ProjectProps} from './Project'
+import pic from './ProfilePic.jpg'
+import WordlePic from './WordlePic.png'
+import CourseReviewPic from './CourseReviewPic.png'
 
-const projectMappings: Map<String, Array<String>> = new Map<String, Array<String>>([["Java", ["test", "1test"]], ["Javascript", ["test1", "1test1"]], ["Cybersecurity", ["1", "2", "3", "4", "5"]], ["Robotics", ["1", "2", "3", "4", "5"]]]);
+// var test: Array<ProjectProps> = new Array<ProjectProps>({name: "test"}, {name: "test2"})
+const projectMappings: Map<String, Array<ProjectProps>> = new Map<String, Array<ProjectProps>>([["Java", [{name: "Course Review Website", link: "https://github.com/Pranie63/Course-Review-Website", imgPath: CourseReviewPic}, 
+    {name: "List Implementation", link: "https://github.com/Pranie63/Generic-Lists", imgPath: pic}, 
+    {name: "Wordle", link: "https://github.com/Pranie63/Wordle", imgPath: WordlePic}]], 
+    ["Javascript", [{name: "test1", link: "", imgPath: ""}, 
+    {name: "1test1", link: "", imgPath: ""}]], 
+    ["Cybersecurity", [{name: "1", link: "", imgPath: ""}]], 
+    ["Robotics", [{name: "1", link: "", imgPath: ""}]]]);
 const description: String = "This is a portfolio containing a collection of my most memorable pieces of work. They extend from personal projects to cumulative course work, representing my journey as a software engineer."
 
 function Portfolio() {
