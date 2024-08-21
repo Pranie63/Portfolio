@@ -6,7 +6,7 @@
     /* justify-content: end; */
     /* float: right; */
     /* width: 50%; */
-    height: 1.3em;
+    height: 2.0em;
     text-align: center;
     font-size: 2em;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
@@ -15,7 +15,7 @@
     /* font-family: 'script mt'; */
     /* top: 0; */
     margin: 0.5em 5em;
-    padding: 0.5em 0 0.5em 0;
+    /* padding: 0.5em 0 0.5em 0; */
     /* border-radius: 2em; */
     border-style: none;
     border-color: transparent;
@@ -37,7 +37,12 @@
 
 .project > a {
     display: block;
-    opacity: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5em 0 0.5em 0;
+    /* opacity: 0; */
 }
 
 @keyframes show {

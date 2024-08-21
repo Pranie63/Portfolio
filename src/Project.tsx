@@ -9,8 +9,9 @@ type ProjectProps = {
 function Project(props: ProjectProps) {
     return (
         <div className='project' style={{background: "linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(" + props.imgPath.toString() + ")"}}>
-            {props.name}
-            <a href={props.link.toString()} target="_blank" rel="noopener noreferrer">Click to View Project</a>
+            <a href={props.link.toString()} target="_blank" rel="noopener noreferrer">
+                {props.name}
+            </a>
         </div>
     )
 }
