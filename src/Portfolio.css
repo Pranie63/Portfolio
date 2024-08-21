@@ -10,7 +10,7 @@
 
 *::-webkit-scrollbar {
     display: block;
-    width: 1em;
+    width: 0.5em;
 }
 
 /* *::-webkit-scrollbar-button {
@@ -18,8 +18,8 @@
 } */
 
 *::-webkit-scrollbar-track {
-    /* background-color: #00000000; */
-    background: linear-gradient(to bottom, black, darkgray);
+    background: black;
+    /* background: linear-gradient(to bottom, black, darkgray); */
     /* color: red; */
 }
 
@@ -28,8 +28,9 @@
 } */
 
 *::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, black, darkgray);
+    /* background: linear-gradient(to bottom, black, darkgray); */
     /* border: 1px solid #ffffff40; */
+    background: white;
     border: 1px solid black;
     border-radius: 24px;
 }
